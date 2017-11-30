@@ -1,0 +1,9 @@
+These functions download one or more URLs . It uses libcurl under the hood to perform the request and retrieve the response.
+There are a myriad of options that can be specified using the ... mechanism to control the creation and submission of the request and the processing of the response. getURLContent has been added as a high-level function like getURL and getBinaryURL
+but which determines the type of the content being downloaded by looking at the resulting HTTP header's Content-Type field.
+
+
+cURL is a computer software project providing a library and command-line tool for transferring data using various protocols. 
+The cURL project produces two products, libcurl and cURL.
+
+
